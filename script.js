@@ -6,3 +6,11 @@ var typed = new Typed(".who-i-am", {
     loop: true
   });
   
+  var e=document.getElementById("nav-list");
+  function responsive_menu(){
+    if(e.className === "align-center"){
+      e.className += " responsive";
+    }
+    else e.className = "align-center";
+
+  }

@@ -5,6 +5,7 @@
   font-size: 20px;
   font-family: "Quicksand", sans-serif;
   color: white;
+  /* overflow: hidden; */
 }
 html {
   scroll-behavior: smooth;
@@ -16,6 +17,7 @@ html {
   background-size: cover;
   height: 100vh;
   overflow: hidden;
+  /* margin-top: 0 !important; */
   margin-bottom: 0px;
 }
 .brand-name {
@@ -114,7 +116,7 @@ html {
   color: brown;
 }
 .about-me-button {
-  height: 150px;
+  height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -137,8 +139,8 @@ html {
   color: rgb(32, 40, 75);
   padding-top: 0.2rem;
   background-color: rgb(204, 240, 231);
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+  /* padding-left: 0.5rem; */
+  /* padding-right: 0.5rem; */
   font-weight: 600;
   font-size: 10px;
   transform: 0.3s color;
@@ -149,27 +151,25 @@ html {
 }
 
 #about {
-  
   height: 100vh;
   margin-top: 0px;
-  background-image: linear-gradient(to right ,#090A0F, black);
-background-color: #000000;
-overflow: hidden;
+  background-image: linear-gradient(to right, #090a0f, black);
+  background-color: #000000;
+  overflow: hidden;
   /* display: flex; */
   margin: 0;
-  
 }
-.about-container{
+.about-container {
   display: flex;
   margin-top: 30px;
-  
+
   margin-left: 50px;
   margin-right: 50px;
-  background-image: linear-gradient(to right, brown ,lightgray);
+  background-image: linear-gradient(to right, brown, lightgray);
   /* border: 5px solid gray; */
   box-shadow: 0 0 30px #ac2b2bb3;
   height: 90%;
-  border-radius:3%;
+  border-radius: 3%;
 }
 .about-img {
   margin-left: 55px;
@@ -194,7 +194,7 @@ overflow: hidden;
 #about-head {
   display: flex;
   justify-content: center;
-  color:rgb(58, 53, 53);
+  color: rgb(58, 53, 53);
   font-size: 50px;
   font-weight: bold;
   margin-bottom: 2rem !important;
@@ -230,30 +230,28 @@ overflow: hidden;
 #skills {
   /* margin-top: 50px; */
   height: 100vh;
-  background-image: linear-gradient(to right ,black,#090A0F);
+  background-image: linear-gradient(to right, black, #090a0f);
   overflow: hidden;
-
 }
-.skill-container{
+.skill-container {
   margin-left: 40px;
   margin-right: 40px;
-  margin-bottom: 30px ; 
+  margin-bottom: 30px;
   margin-top: 30px;
   height: 90%;
-  background-image:linear-gradient(to right, rgb(59, 51, 39),lightgray);
+  background-image: linear-gradient(to right, rgb(59, 51, 39), lightgray);
   box-shadow: 0 0 30px #ebcb1bb3;
   /* border: 2px solid blue; */
   border-radius: 3%;
-  
 }
-.skill-main{
+.skill-main {
   display: flex;
   justify-content: center;
-  width:100%;
+  width: 100%;
   height: 90%;
   overflow: hidden;
 }
-.skill-head{
+.skill-head {
   display: flex;
   justify-content: center;
   color: rgb(39, 35, 35);
@@ -261,14 +259,13 @@ overflow: hidden;
   font-weight: bold;
   /* margin-top: 3rem; */
   margin-bottom: 2rem !important;
-  
 }
 .part-1 {
   height: 50%;
   width: 50%;
   margin-left: 150px;
   margin-right: 10px;
-   /* margin-top: 50px; */
+  /* margin-top: 50px; */
 }
 .part-1 li {
   list-style: none;
@@ -278,7 +275,6 @@ overflow: hidden;
 .part-1 li h3 {
   color: #000000;
   font-weight: bolder;
-  
 }
 .part-2 {
   height: 50%;
@@ -296,264 +292,513 @@ overflow: hidden;
 .part-2 li h3 {
   color: #000000;
   font-weight: bolder;
-  
 }
-.bar{
+.bar {
   margin-top: 20px;
   background: #ffffff;
   height: 9px;
   display: block;
-  border: 1px solid  rgba(0, 0, 0, 0.3);
-  border-radius:4px;
-   box-shadow: 0 0 10px #ffffffb3;
-   width: 70%;
-   overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  box-shadow: 0 0 10px #ffffffb3;
+  width: 70%;
+  overflow: hidden;
 }
-.bar span{
+.bar span {
   height: 9px;
   float: left;
-  background-image: linear-gradient(to right, rgb(170, 51, 30),purple);
+  background-image: linear-gradient(to right, rgb(170, 51, 30), purple);
   border-radius: 4px;
 }
-.skill-icon{
-  font-size:45px;
-
+.skill-icon {
+  font-size: 45px;
 }
-.html{
-  
+.html {
   width: 75%;
-  animation:html 3s;
+  animation: html 3s;
 }
-.css{
-  
+.css {
   width: 60%;
   animation: css 3s;
 }
-.js{
-  
-  width:70%;
+.js {
+  width: 70%;
   animation: js 3s;
-
 }
-.rj{
-  
+.rj {
   width: 60%;
   animation: rj 3s;
-
 }
-.c{
-  
+.c {
   width: 90%;
   animation: c 3s;
-
 }
-.python{
+.python {
   width: 80%;
   animation: python 3s;
-
 }
-.node{
+.node {
   width: 60%;
   animation: node 3s;
-
 }
-.jquery{
+.jquery {
   width: 50%;
   animation: jquery 3s;
 }
-@keyframes html{
-  0%{
-    width:0%;
+@keyframes html {
+  0% {
+    width: 0%;
   }
-  100%{
-    width:75%;
-  }
-}
-@keyframes css{
-  0%{
-    width:0%;
-  }
-  100%{
-    width:60%;
+  100% {
+    width: 75%;
   }
 }
-@keyframes js{
-  0%{
-    width:0%;
+@keyframes css {
+  0% {
+    width: 0%;
   }
-  100%{
-    width:70%;
-  }
-}
-@keyframes rj{
-  0%{
-    width:0%;
-  }
-  100%{
-    width:60%;
+  100% {
+    width: 60%;
   }
 }
-@keyframes c{
-  0%{
-    width:0%;
+@keyframes js {
+  0% {
+    width: 0%;
   }
-  100%{
-    width:90%;
-  }
-}
-@keyframes python{
-  0%{
-    width:0%;
-  }
-  100%{
-    width:80%;
+  100% {
+    width: 70%;
   }
 }
-@keyframes node{
-  0%{
-    width:0%;
+@keyframes rj {
+  0% {
+    width: 0%;
   }
-  100%{
-    width:60%;
-  }
-}
-@keyframes jquery{
-  0%{
-    width:0%;
-  }
-  100%{
-    width:50%;
+  100% {
+    width: 60%;
   }
 }
-#projects{
+@keyframes c {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+@keyframes python {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+@keyframes node {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
+}
+@keyframes jquery {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 50%;
+  }
+}
+#projects {
   height: 100vh;
-overflow: hidden;
-background-color: #9e4444;
-background-image: linear-gradient(to right ,black,#090A0F);
   overflow: hidden;
-
+  background-color: #9e4444;
+  background-image: linear-gradient(to right, black, #090a0f);
+  overflow: hidden;
 }
-.project-head{
-  display: flex;
-  justify-content: center;
-  color: rgb(65, 62, 62);
-  font-size: 50px;
-  font-weight: bold;
-  margin-top: 2rem;
-  margin-bottom: 2rem !important;
-  
-  
-}
-.projects-item{
-  display: flex;
-  width: 100%;
-  justify-content: space-around;
-}
-.projects-container{
-  
+.projects-container {
   margin-left: 40px;
   margin-right: 40px;
-  margin-bottom: 30px ; 
+  margin-bottom: 30px;
   margin-top: 30px;
   height: 90%;
-  background-image:linear-gradient(to right, rgb(179, 134, 230),rgb(165, 160, 160));
+  background-image: linear-gradient(
+    to right,
+    rgb(179, 134, 230),
+    rgb(165, 160, 160)
+  );
   box-shadow: 0 0 30px #72cfe6b3;
   /* border: 2px solid blue; */
   border-radius: 3%;
   /* justify-content: ; */
-  
 }
 
-.team{
-  
-  height: 300px;
-  margin-left: 20px;
-  padding: 24px;
-  background: rgb(22, 22, 22);
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /* align-items: flex-end; */
-  transition: 0.6s ease-out;
-  box-shadow: 0 10px 10px rgba(0,0,0,0.5);
-  
-}
-.team:hover{
-  transform: translateY(15px);
-}
-.team:hover:before{
-  opacity: 1;
-}
-.team:hover .description{
-opacity: 1;
-transform: translateY(0 );
-}
-.team:before{
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: block;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(to top ,#000,transparent);
-  z-index: 2;
-  transition: 0.5s;
-  opacity: 0;
-}
-.team img{
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  left: 0;
-  top: 0;
-  object-fit: cover;
-
-}
-.team .description{
-  position: relative;
-  z-index: 3;
-  opacity: 0;
-  color: #572020;
-  transform: translateY(60px);
-  transition: 0.5s;
-  /* font-style:italic; */
-  font-weight: bold;
-  font-size: 10px;
-}
-.team .description h2{
- font-size: 40px;
-  color: #ff7b00;
-  font-weight: bold;
-  margin-bottom: 5px;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-
-}
-.git-icon{
-  margin-top: 20px;
-  font-size: 40px;
-  transform: 0.3s;
-}
-.git-icon i:hover{
-  transform: scale(1.5);
-
-}
-#contact{
+#contact {
   height: 100vh;
-  background-image: linear-gradient(to right ,black,#090A0F);
+  background-image: linear-gradient(to right, black, #090a0f);
   overflow: hidden;
-  
 }
-.contact-container{
-  
+.contact-container {
   margin-left: 40px;
   margin-right: 40px;
-  margin-bottom: 30px ; 
+  margin-bottom: 30px;
   margin-top: 30px;
   height: 90%;
-  background-image:linear-gradient(to right, rgb(35, 31, 39),rgb(92, 85, 85));
+  background-image: linear-gradient(to right, rgb(35, 31, 39), rgb(92, 85, 85));
   box-shadow: 0 0 30px #72cfe6b3;
   /* border: 2px solid blue; */
   border-radius: 3%;
+}
+#icon-close {
+  display: none;
+  /* font-size: 4rem; */
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+#icon-close i {
+  font-size: 1rem;
+  color: rgb(10, 255, 194);
+}
+#icon-menu {
+  display: none;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+#icon-menu i {
+  font-size: 1rem;
+  color: rgb(10, 255, 194);
+}
+@media (min-width: 1000px){
+  
+  .project-head {
+    display: flex;
+    justify-content: center;
+    color: rgb(65, 62, 62);
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 2rem !important;
+  }
+  .projects-item {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+  
+  
+  .team {
+    height: 300px;
+    margin-left: 20px;
+    padding: 24px;
+    background: rgb(22, 22, 22);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* align-items: flex-end; */
+    transition: 0.6s ease-out;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+  }
+  .team:hover {
+    transform: translateY(15px);
+  }
+  .team:hover:before {
+    opacity: 1;
+  }
+  .team:hover .description {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .team:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, #000, transparent);
+    z-index: 2;
+    transition: 0.5s;
+    opacity: 0;
+  }
+  .team img {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    object-fit: cover;
+  }
+  .img-res img{
+    display: none;
+  }
+  .team .description {
+    position: relative;
+    z-index: 3;
+    opacity: 0;
+    color: #572020;
+    transform: translateY(60px);
+    transition: 0.5s;
+    /* font-style:italic; */
+    font-weight: bold;
+    font-size: 10px;
+  }
+  .team .description h2 {
+    font-size: 40px;
+    color: #ff7b00;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+  }
+  .git-icon {
+    margin-top: 20px;
+    font-size: 40px;
+    transform: 0.3s;
+  }
+  .git-icon i:hover {
+    transform: scale(1.5);
+  }
+  
+}
+#nav-list.align-center{
+  height:16vh;
+}
+.responsive{
+  height: 16vh;
+}
+
+@media (max-width: 700px) {
+  #body-header {
+    background-image: url("images/bg2.png");
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+    margin-bottom: 0px;
+  }
+
+  .social {
+    font-size: 11px;
+    display: block;
+  }
+  .align-center ul {
+    /* display: none; */
+    opacity: 0;
+    visibility: hidden;
+  }
+  .brand-name a {
+    font-size: 10px;
+    /* width: 150px; */
+  }
+
+  .social li a i {
+    font-size: 20px;
+    height: 10px;
+  }
+  .social li {
+    margin-bottom: 10px;
+  }
+  .hello {
+    display: block;
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .intro {
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+  .intro h1 {
+    font-size: 10px;
+  }
+  .name {
+    font-size: 10px;
+    color: brown;
+  }
+  .logo object {
+    width: 150px;
+    height: 200px;
+    /* position: fixed; */
+  }
+  .who-i-am {
+    font-size: 10px;
+  }
+  .about-me-button a {
+    font-size: 30px;
+  }
+  #icon-menu {
+    display: block;
+  }
+  .align-center.responsive {
+    display: block;
+    position: relative;
+    height: 16vh;
+    width: 65%;
+margin-right: 20px;
+    margin-left: 100px;
+    /* border: 3px solid blue; */
+    display: flex;
+    justify-content: center;
+    /* background-color: rgb(5, 5, 5); */
+    background-image: linear-gradient(to right ,#20284B,black );
+    border-radius: 5%;
+    z-index: 11111;
+  }
+  .align-center.responsive ul {
+    opacity: 1;
+    visibility: visible;
+    display: block;
+  }
+  .align-center.responsive ul li {
+    margin: 5px 7px 7px 0px;
+  }
+  .align-center.responsive ul li a {
+    font-size: 20px;
+    color: #ff7b00;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-weight: 400;
+  }
+
+  .about-container {
+    display: block;
+    width: 90%;
+
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+  }
+  .about-img {
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 24px;
+    height: 44%;
+  }
+  .about-img img {
+    margin-top: 1rem !important;
+    margin-left: 2rem !important;
+    width: 249px !important;
+    height: 250px !important;
+  }
+  #about-head {
+    font-size: 30px;
+    margin-bottom: 1rem !important;
+  }
+  .about-main {
+    margin-top: 20px;
+    margin-left: 12px;
+    margin-right: 13px;
+  }
+  .about-text {
+    font-size: 12px;
+  }
+  .Resume a button {
+    font-size: 15px;
+  }
+  .skill-head{
+    /* margin-bottom: 1rem !important; */
+    font-size: 30px;
+
+    /* margin-top: 3rem; */
+    margin-bottom: -1rem !important;
+  }
+  .skill-main{
+    display: block;
+  }
+  .skill-container {
+    display: block;
+    width: 90%;
+
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+  }
+ .part-1 {
+    height: 50%;
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 0px;
+    margin-top: 20px;
+}
+.part-1 li {
+  margin: 13px 0;
+  margin-bottom: -5px;
+}
+.skill-icon{
+  font-size: 20px;
+}
+.part-2{
+  margin-left: 20px;
+  width: 100%  !important;
+}
+.part-2 li {
+  margin: 0px 0;
+  margin-bottom: 7px;
+}
+.projects-container{
+  
+    display: block;
+    width: 90%;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+  
+}
+
+.projects-item{
+  display: grid;
+}
+.team{
+  display: flex !important;
+  
+}
+.team img {
+  display: none;
+}
+#img-res img{
+  display: block;
+  width: 100px;
+}
+.project-head{
+  display: flex;
+  justify-content: center;
+  color: rgb(39, 35, 35);
+  font-size: 30px;
+  margin-bottom: 1rem !important;
+
+}
+.img-res img{
+  display: block;
+  width: 71px;
+  height: 136px;
+  border-radius: 7%;
+  margin-left: 10px;
+  margin-right: 15px;
+  margin-top: 10px;
+}
+.Resume{
+  margin-top: 1rem !important;
+}
+.description{
+  width: 207px;
+  margin-top: 12px;
+}
+.description h2{
+  font-size: 25px;
+  color: #ff7b00  ;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+
+}
+
+.git-icon i{
+  margin-top: 5px;
+}
+.contact-container{
+  display: block;
+  width: 90%;
+  margin-left: 20px !important;
+  margin-right: 20px !important;
+
+}
+
 }

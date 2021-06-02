@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="style.css" />
   <link rel="preconnect" href="https://fonts.gstatic.com" />
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
@@ -22,26 +22,28 @@
 
 <body>
   <header id="body-header">
-    <nav>
-      <div class="navbar">
-        <div class="brand-name">
-          <a href="/#home"> &lt Rahul_Here / &gt </a>
-        </div>
-        <div class="align-center">
-          <ul>
-            <li><a href="/#about">About</a></li>
-            <li><a href="/#skills">Skills</a></li>
-            <li><a href="/#projects">Projects</a></li>
-            <li><a href="/#contact">Contact</a></li>
-          </ul>
-        </div>
+    <!-- <nav> -->
+    <div class="navbar">
+      <div class="brand-name">
+        <a href="/#home"> &lt Rahul_Here / &gt </a>
       </div>
-    </nav>
+      <div class="align-center" id="nav-list">
+        <ul>
+          <li><a href="/#about">About</a></li>
+          <li><a href="/#skills">Skills</a></li>
+          <li><a href="/#projects">Projects</a></li>
+          <!-- <li><a href="/#contact">Contact</a></li> -->
+        </ul>
+      </div>
+      <a href="#" id="icon-menu" onclick="responsive_menu()"> <i class="fas fa-bars"></i></a>
+      <a href="#" id="icon-close"><i class="fas fa-window-close"></i></a>
+    </div>
+    <!-- </nav> -->
 
 
     <div class="name-social-container">
       <div class="intro">
-        <span class="hello"> Hello World! </span>
+        <div class="hello"> Hello World! </div>
         <h1>I'm <span class="name">Rahul Srivastava </span></h1>
         <span class="who-i-am"></span>
       </div>
@@ -60,7 +62,7 @@
       </ul>
     </div>
 
-    <span class="align-center about-me-button"><a href="/#about" class="material-icons"
+    <span class=" about-me-button"><a href="/#about" class="material-icons"
         style="font-size:50px;border-radius:100% ;">keyboard_arrow_down</a></span>
 
 
@@ -143,15 +145,19 @@
     </section>
     <section id="projects">
       <div class="projects-container">
-        <span class="skill-head">
+        <span class="project-head">
           Recent Projects
         </span>
         <div class="projects-item">
           <div class="team">
             <img src="images/pro-1.png">
+            <span class="img-res">
+              <img src="images/pro1-res.png">
+            </span>
             <div class="description">
               <h2>Portfolio Website</h2>
-              <p style="font-size: 15px";>Portfolio Website Made with<br> <b style="font-size: 17px; ">HTML, CSS & JAVASCRIPT</b> </p>
+              <p style="font-size: 15px" ;>Portfolio Website Made with<br> <b style="font-size: 17px; ">HTML, CSS &
+                  JAVASCRIPT</b> </p>
               <p>
                 <a class="git-icon" href="" target="_blank"><i class="fab fa-github"></i></a>
               </p>
@@ -159,25 +165,34 @@
           </div>
           <div class="team">
             <img src="images/pro-2.png">
+            <span class="img-res">
+              <img src="images/pro2-res.png">
+            </span>
             <div class="description">
               <h2>Lo-fi BeAtS</h2>
               <p style="font-size: 15px;">Lo-fi Music Player Made with<br></p>
-              <p > <b style="font-size: 17px;">REACTJS, HTML,CSS</b> </p>
+              <p> <b style="font-size: 17px;">REACTJS, HTML,CSS</b> </p>
               <p>
-                <a class="git-icon" href="https://lofi-beats.herokuapp.com/" target="_blank" ><i class="fab fa-github"></i></a>
+                <a class="git-icon" href="https://lofi-beats.herokuapp.com/" target="_blank"><i
+                    class="fab fa-github"></i></a>
               </p>
             </div>
           </div>
           <div class="team">
             <img src="images/pro-3.png">
+            <span class="img-res">
+              <img src="images/pro3-res.png">
+            </span>
             <div class="description">
               <h2>WeatherX</h2>
               <div class="text">
-                <p style="font-size: 15px;">Weather Web-App <br> gives information based on <br>the given city. Made with<br> <b style="font-size: 17px;">Open Weather
+                <p style="font-size: 15px;">Weather Web-App <br> gives information based on <br>the given city. Made
+                  with<br> <b style="font-size: 17px;">Open Weather
                     API,<br>
                     HTML, CSS & JAVASCRIPT</b> </p>
                 <p>
-                  <a class="git-icon" href="https://rahulsrivatava.github.io/WeatherX/" target="_blank"><i class="fab fa-github" ></i></a>
+                  <a class="git-icon" href="https://rahulsrivatava.github.io/WeatherX/" target="_blank"><i
+                      class="fab fa-github"></i></a>
                 </p>
 
               </div>
@@ -186,17 +201,16 @@
           </div>
         </div>
         <span class="Resume">
-          <a href="https://github.com/RahulSrivatava"
-            target="_blank"><button>More Projects </button></a>
+          <a href="https://github.com/RahulSrivatava" target="_blank"><button>More Projects </button></a>
         </span>
       </div>
     </section>
-    <section id="contact">
+    <!-- <section id="contact">
       <div class="contact-container">
 
       </div>
 
-    </section>
+    </section> -->
   </main>
 </body>
 <script src="typed.js"></script>
