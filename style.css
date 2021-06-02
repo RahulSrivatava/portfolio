@@ -602,22 +602,28 @@ html {
   .social li {
     margin-bottom: 10px;
   }
+  .name-social-container{
+    margin-left: -5px;
+  }
   .hello {
     display: block;
     font-weight: 800;
-    font-size: 20px;
+    font-size: 30px;
     margin-bottom: 20px;
   }
   .intro {
-    margin-left: 50px;
-    margin-top: 50px;
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 55px;
   }
   .intro h1 {
-    font-size: 10px;
+    font-size: 20px;
   }
-  .name {
-    font-size: 10px;
+ .intro .name {
+    font-size: 25px;
     color: brown;
+    /* display: flex; */
+    font-weight: 900;
   }
   .logo object {
     width: 150px;
@@ -625,7 +631,8 @@ html {
     /* position: fixed; */
   }
   .who-i-am {
-    font-size: 10px;
+    font-size: 15px;
+    /* display: block; */
   }
   .about-me-button a {
     font-size: 30px;
@@ -681,10 +688,11 @@ margin-right: 20px;
     margin-left: 2rem !important;
     width: 249px !important;
     height: 250px !important;
+    margin-right: 2rem !important;
   }
   #about-head {
-    font-size: 30px;
-    margin-bottom: 1rem !important;
+    font-size: 36px;
+    margin-bottom: 0.5rem !important;
   }
   .about-main {
     margin-top: 20px;
@@ -692,7 +700,7 @@ margin-right: 20px;
     margin-right: 13px;
   }
   .about-text {
-    font-size: 12px;
+    font-size: 15px;
   }
   .Resume a button {
     font-size: 15px;
@@ -702,7 +710,7 @@ margin-right: 20px;
     font-size: 30px;
 
     /* margin-top: 3rem; */
-    margin-bottom: -1rem !important;
+    margin-bottom: 1rem !important;
   }
   .skill-main{
     display: block;
@@ -723,10 +731,10 @@ margin-right: 20px;
 }
 .part-1 li {
   margin: 13px 0;
-  margin-bottom: -5px;
+  margin-bottom: 4px;
 }
 .skill-icon{
-  font-size: 20px;
+  font-size: 30px;
 }
 .part-2{
   margin-left: 20px;
@@ -777,7 +785,7 @@ margin-right: 20px;
   margin-top: 10px;
 }
 .Resume{
-  margin-top: 1rem !important;
+  margin-top: 0rem !important;
 }
 .description{
   width: 207px;
@@ -789,6 +797,7 @@ margin-right: 20px;
   font-family: "Yanone Kaffeesatz", sans-serif;
 
 }
+
 
 .git-icon i{
   margin-top: 5px;
