@@ -603,7 +603,7 @@ html {
     margin-bottom: 10px;
   }
   .name-social-container{
-    margin-left: -5px;
+    margin-left: 3px;
   }
   .hello {
     display: block;
@@ -680,8 +680,8 @@ margin-right: 20px;
   .about-img {
     margin-left: 0px;
     margin-top: 0px;
-    width: 24px;
-    height: 44%;
+    width: 100%;
+    height: 50%;
   }
   .about-img img {
     margin-top: 1rem !important;
@@ -734,7 +734,7 @@ margin-right: 20px;
   margin-bottom: 4px;
 }
 .skill-icon{
-  font-size: 30px;
+  font-size: 50px;
 }
 .part-2{
   margin-left: 20px;
@@ -785,7 +785,7 @@ margin-right: 20px;
   margin-top: 10px;
 }
 .Resume{
-  margin-top: 0rem !important;
+  margin-top: 2rem !important;
 }
 .description{
   width: 207px;
@@ -797,7 +797,9 @@ margin-right: 20px;
   font-family: "Yanone Kaffeesatz", sans-serif;
 
 }
-
+.bar {
+  margin-top: 9px;
+}
 
 .git-icon i{
   margin-top: 5px;
